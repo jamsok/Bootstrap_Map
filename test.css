@@ -1,0 +1,409 @@
+/* Popup for hall 01=========================================*/
+.popup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 144px;
+  color: red;
+  left: 290px;
+  width: 182px;
+  height: 101px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.popup:hover{
+  background-color:yellow;
+}
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 170px;
+  background-color:green;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 150px;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+
+/* popup for hall 02 =======================================================*/
+.popup2 {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 324px;
+  color:green;
+  left: 290px;
+  width: 182px;
+  height: 101px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.popup2:hover{
+  background-color:yellow;
+}
+/* The actual popup */
+.popup2 .popuptext2 {
+  visibility: hidden;
+  width: 170px;
+  background-color:red;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  left: 50px;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup2 .popuptext2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup2 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* popup for hall 03 ==================================================*/
+.popup3 {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 504px;
+  color:green;
+  left: 290px;
+  width: 182px;
+  height: 101px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.popup3:hover{
+  background-color:yellow;
+}
+/* The actual popup */
+.popup3 .popuptext3 {
+  visibility: hidden;
+  width: 170px;
+  background-color:orchid;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50px;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup3 .popuptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup3 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* popup for main hall =====================================================*/
+.popup4 {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 142px;
+  color:green;
+  left: 593px;
+  width: 240px;
+  height: 465px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 40px;
+}
+.popup4:hover{
+  background-color:skyblue;
+}
+/* The actual popup */
+.popup4 .popuptext3 {
+  visibility: hidden;
+  width: 170px;
+  background-color:orchid;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50px;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup4 .popuptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* popup for hall 05============================================================== */
+.popup5 {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 144px;
+  color:green;
+  left: 955px;
+  width: 182px;
+  height: 101px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.popup5:hover{
+  background-color:green;
+}
+/* The actual popup */
+.popup5 .popuptext3 {
+  visibility: hidden;
+  width: 170px;
+  background-color:orchid;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50px;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup5 .popuptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup5 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* popup for hall 06============================================================== */
+.popup6 {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 324px;
+  color:green;
+  left: 955px;
+  width: 182px;
+  height: 101px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.popup6:hover{
+  background-color:green;
+}
+/* The actual popup */
+.popup6 .popuptext3 {
+  visibility: hidden;
+  width: 170px;
+  background-color:orchid;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50px;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup6 .popuptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup6 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* popup for hall 07============================================================== */
+.popup7 {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: 504px;
+  color:green;
+  left: 955px;
+  width: 182px;
+  height: 101px;
+  color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.popup7:hover{
+  background-color:green;
+}
+/* The actual popup */
+.popup7 .popuptext3 {
+  visibility: hidden;
+  width: 170px;
+  background-color:orchid;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50px;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup7 .popuptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup7 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+
+/* ==================================== */
+#map{
+    position: relative;
+}
+/* #content {
+  height: 700px;
+  width: 1250px;
+  padding: 15px;
+  margin: 10px;
+  overflow: scroll;
+} */
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
